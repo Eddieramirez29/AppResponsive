@@ -1,6 +1,5 @@
 body
 {
-    background-color: aquamarine;
     margin: 0;
     font-family: 'Times New Roman', Times, serif;
 }
@@ -44,4 +43,52 @@ button
 button:hover
 {
     background-color: rgb(65, 6, 121);
+}
+
+.container
+{
+    max-width: 1400px;
+    margin: auto;
+}
+
+header
+{
+    background-color: rgb(245, 245, 245);
+}
+
+header .logo
+{
+    margin: 0;
+    padding: 25px 30px;
+    font-weight: bold;
+    color: blueviolet;
+    font-size: 1.5em;
+}
+
+header .container
+{
+    display: flex;
+    flex-direction: column;
+    align-items:center
+}
+
+header nav
+{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    padding-bottom: 25px;
+}
+
+header a
+{
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+header a:hover
+{
+    color: blueviolet;
 }
